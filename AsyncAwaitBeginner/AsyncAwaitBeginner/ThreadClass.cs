@@ -30,7 +30,7 @@ namespace AsyncAwaitBeginner
             //    Console.WriteLine("NUMBER" + i);
             //    Thread.Sleep(70);
             //}
-        }
+        } 
 
         public static void ThreadWithParamater()
         {
@@ -46,7 +46,7 @@ namespace AsyncAwaitBeginner
             for (var i = 0; i < 100; i++)
             {
                 Console.Write("B : " + i);
-
+                 
                 Thread.Sleep(100);
             }
         }
